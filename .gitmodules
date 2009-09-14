@@ -1,0 +1,6 @@
+[submodule "vendor/plugins/yogo_authz"]
+	path = vendor/plugins/yogo_authz
+	url = git://github.com/yogo/yogo-authz.git
+[submodule "vendor/plugins/authlogic_ldap"]
+	path = vendor/plugins/authlogic_ldap
+	url = git://github.com/pol/authlogic_ldap.git
