@@ -1,0 +1,70 @@
+/* 
+Important Note:  
+  Throughout this file, double slashes (//) are used to give formatting tweaks for 
+  Internet Explorer, as IE doesn't ignore that type of commenting, but other browsers do. 
+*/
+
+.small {
+  font-size: .75em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.listbox {
+  border: 1px dashed silver;
+  padding: 5px;
+}
+
+.listbox div{
+  padding: 3px;
+}
+
+.dropname {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.dashbox{
+  padding: 30px; 
+  margin: auto auto; 
+  width: 400px;
+  border: 1px dashed silver;
+  background-color: #EEF;
+}
+
+.dashbox_header{
+  text-align: center;
+}
+
+.form_label{
+  float: left; 
+  width: 55px;
+}
+
+.breadcrumbs{
+  float: left;
+  margin-left: 10px;
+}
+
+.link_button a{
+  display: block;
+  width: 100px;
+  padding: 3px;
+  font-size:; 1.1em;
+  border: 1px solid blue;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: goldenrod;
+}
+
+.link_button a:hover{
+  background-color: orange;
+}
+
+.even { background: #FFF; }
+
+.odd { background: #EEF; } 
+

@@ -1,0 +1,32 @@
+<h1 class='dashbox_header'>New File</h1>
+<div class='dashbox'>
+<% form_for(@drop, :html => {:multipart => true }) do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= label_tag 'file' %><br />
+    <%= f.file_field :file %>
+  </p>
+  
+  <p>
+    <%= label_tag 'name' %><br />
+    <%= f.text_field :name %>
+    <span class='small italic'>(optional descriptive name)</span>
+  </p>
+
+  <p>
+    <%= label_tag 'description' %><br />
+    <%= f.text_area :description, :size => '33x6' %>
+    <span class='small italic'>(also optional)</span>
+  </p>
+    
+  <p style='text-align: center;'><%= f.submit "Create" %></p>
+<% end %>
+</div>
+<%#= link_to 'Back', drops_path %>
+<div style='text-align: center; width: 80%; margin: 20px auto; '>
+  <span style='font-weight: bold;'>Important!</span><br />
+  Don't violate anyone's copyright, do anything illegal, or violate Montana State University's
+  policies.  By using this service you agree that you have read and will abide by the 
+  <%= link_to "Terms of Service", terms_url%>. You are solely responsible for any and all results 
+  of your usage of this service.
+</div>

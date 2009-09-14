@@ -1,0 +1,14 @@
+<h1>Editing drop</h1>
+
+<% form_for(@drop, :html => {:multipart => true }) do |f| %>
+  <%= f.error_messages %>
+  Name: <%= f.text_field :name %><br />
+  Description: <%= f.text_area :description %><br />
+  File: <%= f.file_field :file %><br />
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @drop %> |
+<%= link_to 'Back', drops_path %>

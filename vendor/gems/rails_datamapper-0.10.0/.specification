@@ -1,0 +1,90 @@
+--- !ruby/object:Gem::Specification 
+name: rails_datamapper
+version: !ruby/object:Gem::Version 
+  version: 0.10.0
+platform: ruby
+authors: 
+- Tom Malone
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-06-26 00:00:00 -06:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: dm-core
+  type: :runtime
+  version_requirement: 
+  version_requirements: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - "="
+      - !ruby/object:Gem::Version 
+        version: 0.10.0
+    version: 
+description: Rails Plugin for datamapper
+email: 
+- tomjmalone [a] gmail [d] com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README.txt
+- LICENSE
+- TODO
+- History.txt
+files: 
+- History.txt
+- LICENSE
+- Manifest.txt
+- README.txt
+- Rakefile
+- TODO
+- datamapper.rake
+- generators/dm_install/dm_install_generator.rb
+- generators/dm_install/templates/datamapper.rake
+- generators/dm_migration/dm_migration_generator.rb
+- generators/dm_migration/templates/migration.rb
+- generators/dm_model/dm_model_generator.rb
+- generators/dm_model/templates/migration.rb
+- generators/dm_model/templates/model.rb
+- generators/dm_model/templates/unit_test.rb
+- generators/rspec_dm_model/rspec_dm_model_generator.rb
+- generators/rspec_dm_model/templates/model.rb
+- generators/rspec_dm_model/templates/model_spec.rb
+- lib/rails_datamapper.rb
+- lib/rails_datamapper/rails_datamapper.rb
+- lib/rails_datamapper/version.rb
+- tasks/install.rb
+has_rdoc: true
+homepage: http://github.com/datamapper/dm-more/tree/master/rails_datamapper
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --main
+- README.txt
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: datamapper
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: Rails Plugin for datamapper
+test_files: []
+

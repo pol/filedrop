@@ -1,0 +1,11 @@
+sapphire:
+  id:                        1
+  user_id:                   1
+  uuid:                      356a192b7913b04c54574d18c28d46e6395428ab
+  name:                      Yogo Sapphire Logo
+  description:               The yogo sapphire logo for all yogo apps.
+  file_file_name:            sapphire.png
+  file_content_type:         image/jpeg
+  file_file_size:            77de68daecd823babbb58edb1c8e14d7106e83bb
+  created_at:                <%= 5.days.ago.to_s :db%>
+  updated_at:                <%= 5.days.ago.to_s :db %>

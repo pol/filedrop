@@ -1,0 +1,44 @@
+#these are additional tests that are added to the restful_authentication user
+require File.dirname(__FILE__) + '/../spec_helper'
+
+describe User do
+  fixtures :users
+  
+  describe ": LDAP User Authentication :" do
+    it "should respond to an ldap_authenticated? method" do
+      u = User.new
+      u.should respond_to(:ldap_authenticated?)
+    end
+  
+    it "should create a new user if a local user doesn't exist, but the user is authed via LDAP" do
+      User.find_by_login('user.name').should be_nil
+      SimpleLdapAuthenticator.should_receive(:valid?).with('user.name','password').and_return(true)
+
+      lambda do
+        u = User.authenticate('user.name','password')
+      end.should change(User,:count).by(1)
+
+    end
+    
+    it "should reject a user that fails the LDAP auth and the local auth" do
+      User.find_by_login('user.name').should be_nil
+      SimpleLdapAuthenticator.should_receive(:valid?).with('user.name','password').and_return(false)
+      
+      lambda do
+        User.authenticate('user.name', 'password').should be_nil
+      end.should change(User,:count).by(0)
+    end
+    
+    it "should not check LDAP if the user succeeds the local auth" do
+      SimpleLdapAuthenticator.should_not_receive(:valid?).with('quentin','monkey')
+      User.authenticate('quentin','monkey').should be_true
+    end
+    
+    it "should auth a user who is in the local system, fails local auth, but succeeds LDAP auth (but not create a new user)" do
+      SimpleLdapAuthenticator.should_receive(:valid?).with('quentin','mojo').and_return(true)
+      lambda do
+        User.authenticate('quentin','mojo').should be_true #his password in the fixtures is 'monkey'
+      end.should change(User,:count).by(0)
+    end
+  end
+end

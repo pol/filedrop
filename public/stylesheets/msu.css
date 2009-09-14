@@ -1,0 +1,42 @@
+/* 
+Important Note:  
+  Throughout this file, double slashes (//) are used to give formatting tweaks for 
+  Internet Explorer, as IE doesn't ignore that type of commenting, but other browsers do. 
+*/
+
+body {
+	height: 100%;
+	font-family: Arial, Verdana, Sans-Serif;
+	background-color: #001155;
+}
+
+/* Header elements */
+#header {
+	margin:0 0 20px 0;
+	color: #fff;
+	background-image: url(/images/gradient_header.jpg);
+	background-repeat: repeat-x;
+}
+
+#app_title {
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+/* User Bar Elements (login/logout/etc) */
+#user_bar {
+  background-color: #FFFFFF;
+  padding: 1px;
+  font-size: .75em;
+  text-align: right;
+}
+
+
+
+/* Main Page Elements */
+#content {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+

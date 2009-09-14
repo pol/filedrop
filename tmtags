@@ -1,0 +1,318 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+AccessControlTestController	/Users/lamb/Projects/filedrop/spec/controllers/access_control_spec.rb	/^class AccessControlTestController < ApplicationController$/;"	class	line:9
+ActionController	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/extensions/routes.rb	/^  class ActionController::Routing::RouteSet$/;"	class	line:2
+ActsAsAuthentic	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^  module ActsAsAuthentic$/;"	mixin	line:2
+ApplicationController	/Users/lamb/Projects/filedrop/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:4
+ApplicationHelper	/Users/lamb/Projects/filedrop/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	mixin	line:2
+AuthenticatedSystem	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^  module AuthenticatedSystem$/;"	mixin	line:7
+AuthenticatedSystemClassMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^    module AuthenticatedSystemClassMethods$/;"	mixin	line:31
+AuthenticatedSystemInstanceMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^    module AuthenticatedSystemInstanceMethods$/;"	mixin	line:64
+AuthlogicDM	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^module AuthlogicDM #:nodoc:$/;"	mixin	line:3
+AuthlogicLdap	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^module AuthlogicLdap$/;"	mixin	line:1
+AuthlogicLdap	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^module AuthlogicLdap$/;"	mixin	line:1
+AuthlogicLdap	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/version.rb	/^module AuthlogicLdap$/;"	mixin	line:1
+AuthorizationError	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/extensions/exceptions.rb	/^  class AuthorizationError < StandardError$/;"	class	line:4
+AuthorizationExpressionInvalid	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/extensions/exceptions.rb	/^  class AuthorizationExpressionInvalid < AuthorizationError$/;"	class	line:10
+AuthorizationMissingPermissions	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/extensions/exceptions.rb	/^  class AuthorizationMissingPermissions < AuthorizationError$/;"	class	line:7
+AuthorizationSystem	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^  module AuthorizationSystem$/;"	mixin	line:7
+AuthorizationSystemClassMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    module AuthorizationSystemClassMethods$/;"	mixin	line:27
+AuthorizationSystemInstanceMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    module AuthorizationSystemInstanceMethods$/;"	mixin	line:146
+Boot	/Users/lamb/Projects/filedrop/config/boot.rb	/^  class Boot$/;"	class	line:36
+BrowsingTest	/Users/lamb/Projects/filedrop/test/performance/browsing_test.rb	/^class BrowsingTest < ActionController::PerformanceTest$/;"	class	line:5
+ClassMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^    module ClassMethods$/;"	mixin	line:85
+ClassMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/model_authorization_system.rb	/^    module ClassMethods$/;"	mixin	line:13
+ClassMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/yogo_user.rb	/^    module ClassMethods$/;"	mixin	line:62
+Compatability	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^  module Compatability #:nodoc:$/;"	mixin	line:4
+Config	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^    module Config$/;"	mixin	line:10
+Config	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^    module Config$/;"	mixin	line:15
+ControllerHelpers	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/controller_helpers.rb	/^  module ControllerHelpers$/;"	mixin	line:7
+ControllerHelpersClassMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/controller_helpers.rb	/^    module ControllerHelpersClassMethods #nodoc$/;"	mixin	line:13
+CreateDrops	/Users/lamb/Projects/filedrop/db/migrate/20090302224715_create_drops.rb	/^class CreateDrops < ActiveRecord::Migration$/;"	class	line:1
+CreateGroups	/Users/lamb/Projects/filedrop/db/migrate/20090324213900_create_groups.rb	/^class CreateGroups < ActiveRecord::Migration$/;"	class	line:1
+CreateMemberships	/Users/lamb/Projects/filedrop/db/migrate/20090324214520_create_memberships.rb	/^class CreateMemberships < ActiveRecord::Migration$/;"	class	line:1
+CreateUsers	/Users/lamb/Projects/filedrop/db/migrate/20090302224237_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	class	line:1
+Drop	/Users/lamb/Projects/filedrop/app/models/drop.rb	/^class Drop$/;"	class	line:1
+DropsController	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^class DropsController < ApplicationController$/;"	class	line:1
+DropsHelper	/Users/lamb/Projects/filedrop/app/helpers/drops_helper.rb	/^module DropsHelper$/;"	mixin	line:1
+GemBoot	/Users/lamb/Projects/filedrop/config/boot.rb	/^  class GemBoot < Boot$/;"	class	line:51
+GroupSpec	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/spec/models/group_spec.rb	/^module GroupSpec$/;"	mixin	line:3
+GroupsControllerSpec	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/spec/controllers/groups_controller_spec.rb	/^module GroupsControllerSpec$/;"	mixin	line:3
+InstanceMethods	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^    module InstanceMethods$/;"	mixin	line:172
+InstanceMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^    module InstanceMethods$/;"	mixin	line:137
+InstanceMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/model_authorization_system.rb	/^    module InstanceMethods$/;"	mixin	line:21
+InstanceMethods	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/yogo_user.rb	/^    module InstanceMethods$/;"	mixin	line:69
+Methods	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^    module Methods$/;"	mixin	line:35
+ModelAuthorizationSystem	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/model_authorization_system.rb	/^  module ModelAuthorizationSystem$/;"	mixin	line:6
+Notifier	/Users/lamb/Projects/filedrop/app/models/notifier.rb	/^class Notifier < ActionMailer::Base$/;"	class	line:1
+NotifierTest	/Users/lamb/Projects/filedrop/test/unit/notifier_test.rb	/^class NotifierTest < ActionMailer::TestCase$/;"	class	line:3
+Rails	/Users/lamb/Projects/filedrop/config/boot.rb	/^module Rails$/;"	mixin	line:6
+Session	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^  module Session$/;"	mixin	line:2
+SessionsHelper	/Users/lamb/Projects/filedrop/app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	mixin	line:1
+String	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^class String$/;"	class	line:59
+Test	/Users/lamb/Projects/filedrop/test/test_helper.rb	/^class Test::Unit::TestCase$/;"	class	line:5
+ToFooFromStory	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^module ToFooFromStory$/;"	mixin	line:22
+User	/Users/lamb/Projects/filedrop/app/models/user.rb	/^class User$/;"	class	line:2
+UserAdminHelper	/Users/lamb/Projects/filedrop/app/helpers/user_admin_helper.rb	/^module UserAdminHelper$/;"	mixin	line:1
+UserSpec	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/spec/models/user_spec.rb	/^module UserSpec$/;"	mixin	line:3
+UsersHelper	/Users/lamb/Projects/filedrop/app/helpers/users_helper.rb	/^module UsersHelper$/;"	mixin	line:1
+VendorBoot	/Users/lamb/Projects/filedrop/config/boot.rb	/^  class VendorBoot < Boot$/;"	class	line:43
+Version	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/version.rb	/^  class Version$/;"	class	line:5
+WebUserSpec	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/spec/models/web_user_spec.rb	/^module WebUserSpec$/;"	mixin	line:3
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/groups_controller.rb	/^class YogoAuthz::GroupsController < ApplicationController$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/memberships_controller.rb	/^class YogoAuthz::MembershipsController < ApplicationController$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/permissions_controller.rb	/^class YogoAuthz::PermissionsController < ApplicationController$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/requirements_controller.rb	/^class YogoAuthz::RequirementsController < ApplicationController$/;"	class	line:8
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/user_sessions_controller.rb	/^class YogoAuthz::UserSessionsController < ApplicationController$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/users_controller.rb	/^class YogoAuthz::UsersController < ApplicationController$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/controller.rb	/^class YogoAuthz::Controller$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/group.rb	/^class YogoAuthz::Group$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/membership.rb	/^class YogoAuthz::Membership$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/permission.rb	/^class YogoAuthz::Permission$/;"	class	line:1
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/requirement.rb	/^class YogoAuthz::Requirement$/;"	class	line:1
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/user_session.rb	/^class YogoAuthz::UserSession < Authlogic::Session::Base$/;"	class	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^module YogoAuthz$/;"	mixin	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^module YogoAuthz #:nodoc:$/;"	mixin	line:1
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^module YogoAuthz$/;"	mixin	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/controller_helpers.rb	/^module YogoAuthz$/;"	mixin	line:6
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/extensions/exceptions.rb	/^module YogoAuthz$/;"	mixin	line:1
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/model_authorization_system.rb	/^module YogoAuthz$/;"	mixin	line:5
+YogoAuthz	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/yogo_user.rb	/^module YogoAuthz$/;"	mixin	line:6
+YogoAuthzTest	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/test/yogo_authz_test.rb	/^class YogoAuthzTest < ActiveSupport::TestCase$/;"	class	line:3
+YogoUser	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/yogo_user.rb	/^  module YogoUser$/;"	mixin	line:7
+action_name	/Users/lamb/Projects/filedrop/spec/controllers/authenticated_system_spec.rb	/^def action_name() end$/;"	method	line:7
+addText	/Users/lamb/Projects/filedrop/public/javascripts/controls.js	/^    function addText(mode, condition) {$/;"	function	line:561
+add_no_user	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/requirements_controller.rb	/^  def add_no_user$/;"	method	line:33
+add_user	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/requirements_controller.rb	/^  def add_user$/;"	method	line:22
+all	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/controller.rb	/^  def self.all$/;"	singleton method	line:9
+authenticating_with_ldap?	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def authenticating_with_ldap?$/;"	method	line:239
+authorization_denied	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^      def authorization_denied$/;"	method	line:151
+authorized	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^      def authorized$/;"	method	line:161
+boot!	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def boot!$/;"	method	line:8
+booted?	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def booted?$/;"	method	line:15
+breadcrumbs	/Users/lamb/Projects/filedrop/app/helpers/application_helper.rb	/^  def breadcrumbs(trail = nil)$/;"	method	line:4
+by	/Users/lamb/Projects/filedrop/spec/helpers/users_helper_spec.rb	/^    it "should have nickname as a class by default" do$/;"	class	line:45
+check_authentication_requirements	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def check_authentication_requirements$/;"	method	line:68
+check_authorization	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^      def check_authorization$/;"	method	line:167
+codeForEvent	/Users/lamb/Projects/filedrop/public/javascripts/effects.js	/^    function codeForEvent(options,eventName){$/;"	function	line:231
+column_names	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def column_names$/;"	method	line:96
+controller_permissions	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^     def controller_permissions(user = nil, params = {})$/;"	method	line:111
+copy	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function copy(methods, destination, onlyIfAbsent) {$/;"	function	line:2634
+create	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def create$/;"	method	line:48
+create	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/groups_controller.rb	/^  def create$/;"	method	line:44
+create	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/memberships_controller.rb	/^  def create$/;"	method	line:19
+create	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/permissions_controller.rb	/^  def create$/;"	method	line:22
+create	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/user_sessions_controller.rb	/^  def create$/;"	method	line:20
+create	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/users_controller.rb	/^  def create$/;"	method	line:24
+createWrapper	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function createWrapper(element, eventName, handler) {$/;"	function	line:3955
+create_random_password	/Users/lamb/Projects/filedrop/app/models/user.rb	/^  def self.create_random_password$/;"	singleton method	line:24
+create_user	/Users/lamb/Projects/filedrop/features/step_definitions/user_steps.rb	/^def create_user(user_params={})$/;"	method	line:102
+create_user	/Users/lamb/Projects/filedrop/spec/controllers/users_controller_spec.rb	/^  def create_user(options = {})$/;"	method	line:54
+create_user!	/Users/lamb/Projects/filedrop/features/step_definitions/user_steps.rb	/^def create_user!(user_type, user_params)$/;"	method	line:108
+create_with_ldap_data	/Users/lamb/Projects/filedrop/app/models/user.rb	/^  def self.create_with_ldap_data(login,password,user_data)$/;"	singleton method	line:11
+create_with_ldap_data_method	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def create_with_ldap_data_method$/;"	method	line:327
+create_with_ldap_data_method	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def create_with_ldap_data_method(value = nil)$/;"	method	line:165
+credentials	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def credentials$/;"	method	line:214
+credentials	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def credentials=(value)$/;"	method	line:226
+current_user	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def current_user$/;"	method	line:112
+current_user_session	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def current_user_session$/;"	method	line:107
+declaired_authentications	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/controller.rb	/^  def self.declaired_authentications$/;"	singleton method	line:13
+declaired_authorizations	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/controller.rb	/^  def self.declaired_authorizations$/;"	singleton method	line:21
+default_timezone	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def default_timezone$/;"	method	line:114
+define_callbacks	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^          def define_callbacks *callbacks$/;"	method	line:33
+destroy	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def destroy$/;"	method	line:83
+destroy	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/groups_controller.rb	/^  def destroy$/;"	method	line:77
+destroy	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/memberships_controller.rb	/^  def destroy$/;"	method	line:28
+destroy	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/permissions_controller.rb	/^  def destroy$/;"	method	line:32
+destroy	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/user_sessions_controller.rb	/^  def destroy$/;"	method	line:30
+destroy	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/users_controller.rb	/^  def destroy$/;"	method	line:52
+destroyCache	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function destroyCache() {$/;"	function	line:3985
+destroyWrapper	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function destroyWrapper(id, eventName, handler) {$/;"	function	line:3979
+dispatch	/Users/lamb/Projects/filedrop/public/javascripts/effects.js	/^      function dispatch(effect, eventName) {$/;"	function	line:248
+do_create	/Users/lamb/Projects/filedrop/spec/controllers/sessions_controller_spec.rb	/^  def do_create$/;"	method	line:14
+do_destroy	/Users/lamb/Projects/filedrop/spec/controllers/sessions_controller_spec.rb	/^    def do_destroy$/;"	method	line:90
+down	/Users/lamb/Projects/filedrop/db/migrate/20090302224237_create_users.rb	/^  def self.down$/;"	singleton method	line:19
+down	/Users/lamb/Projects/filedrop/db/migrate/20090302224715_create_drops.rb	/^  def self.down$/;"	singleton method	line:15
+down	/Users/lamb/Projects/filedrop/db/migrate/20090324213900_create_groups.rb	/^  def self.down$/;"	singleton method	line:20
+down	/Users/lamb/Projects/filedrop/db/migrate/20090324214520_create_memberships.rb	/^  def self.down$/;"	singleton method	line:13
+download	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def download$/;"	method	line:93
+dump_response	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^def dump_response$/;"	method	line:70
+edit	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def edit$/;"	method	line:42
+edit	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/groups_controller.rb	/^  def edit$/;"	method	line:36
+edit	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/users_controller.rb	/^  def edit$/;"	method	line:38
+expiration_date	/Users/lamb/Projects/filedrop/app/models/drop.rb	/^  def expiration_date$/;"	method	line:28
+expiring_drop_notification	/Users/lamb/Projects/filedrop/app/models/notifier.rb	/^  def expiring_drop_notification(user, drop)$/;"	method	line:10
+extend	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function extend(tagName) {$/;"	function	line:2627
+failsafe_response	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^  def self.failsafe_response(output, status, exception = nil)$/;"	singleton method	line:14
+fallback	/Users/lamb/Projects/filedrop/public/javascripts/controls.js	/^  function fallback(name, expr) {$/;"	function	line:857
+fetch_user_data	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def fetch_user_data(login,password)$/;"	method	line:273
+findDOMClass	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function findDOMClass(tagName) {$/;"	function	line:2644
+findWrapper	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function findWrapper(id, eventName, handler) {$/;"	function	line:3974
+find_by_ldap_login	/Users/lamb/Projects/filedrop/app/models/user.rb	/^  def self.find_by_ldap_login(login)$/;"	singleton method	line:7
+find_by_ldap_login_method	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def find_by_ldap_login_method$/;"	method	line:307
+find_by_ldap_login_method	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def find_by_ldap_login_method(value = nil)$/;"	method	line:97
+find_by_login	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/yogo_user.rb	/^      def find_by_login(login)$/;"	method	line:63
+find_by_smart_case_ldap_login_field	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^      def find_by_smart_case_ldap_login_field(login) #:nodoc:$/;"	method	line:30
+find_resource	/Users/lamb/Projects/filedrop/features/step_definitions/ra_resource_steps.rb	/^def find_resource resource, conditions$/;"	method	line:142
+find_with_case	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def find_with_case(field, value, sensitivity = true)$/;"	method	line:87
+fireContentLoadedEvent	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function fireContentLoadedEvent() {$/;"	function	line:4102
+fix_key	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^  def ToFooFromStory.fix_key key$/;"	singleton method	line:23
+fix_value	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^  def ToFooFromStory.fix_value value$/;"	singleton method	line:26
+gem_version	/Users/lamb/Projects/filedrop/config/boot.rb	/^      def gem_version$/;"	method	line:74
+generate_uuid	/Users/lamb/Projects/filedrop/app/models/drop.rb	/^  def generate_uuid # => 8 characters should be sufficient$/;"	method	line:38
+getCacheForID	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function getCacheForID(id) {$/;"	function	line:3946
+getDOMEventName	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function getDOMEventName(eventName) {$/;"	function	line:3941
+getEventID	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function getEventID(element) {$/;"	function	line:3935
+getWrappersForEventName	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function getWrappersForEventName(id, eventName) {$/;"	function	line:3950
+get_controllers	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/controller_helpers.rb	/^      def get_controllers$/;"	method	line:23
+grok_path	/Users/lamb/Projects/filedrop/features/step_definitions/ra_response_steps.rb	/^def grok_path path$/;"	method	line:152
+has_db_permissions?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    def has_db_permissions?(controller, action)$/;"	method	line:130
+has_group?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/yogo_user.rb	/^      def has_group?(value)$/;"	method	line:74
+has_inline_permissions?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    def has_inline_permissions?$/;"	method	line:135
+have_flash	/Users/lamb/Projects/filedrop/features/step_definitions/ra_response_steps.rb	/^def have_flash notice, *args$/;"	method	line:145
+if	/Users/lamb/Projects/filedrop/spec/helpers/users_helper_spec.rb	/^    it "should have some class if you tell it to" do$/;"	class	line:134
+if	/Users/lamb/Projects/filedrop/spec/helpers/users_helper_spec.rb	/^    it "should have some class if you tell it to" do$/;"	class	line:71
+if	/Users/lamb/Projects/filedrop/spec/helpers/users_helper_spec.rb	/^    it "should have some class if you tell it to" do$/;"	class	line:76
+if_authorized?	/Users/lamb/Projects/filedrop/app/helpers/users_helper.rb	/^  def if_authorized?(action, resource, &block)$/;"	method	line:14
+included	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^      def self.included(klass)$/;"	singleton method	line:36
+included	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^    def self.included(klass)$/;"	singleton method	line:3
+included	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^    def self.included(klass)$/;"	singleton method	line:3
+included	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^    def self.included(base)$/;"	singleton method	line:9
+included	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^    def self.included(klass)$/;"	singleton method	line:5
+included	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    def self.included(base)$/;"	singleton method	line:9
+included	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/controller_helpers.rb	/^    def self.included(base)$/;"	singleton method	line:9
+included	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/model_authorization_system.rb	/^    def self.included(base)$/;"	singleton method	line:8
+included	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/yogo_user.rb	/^    def self.included(klass)$/;"	singleton method	line:9
+index	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def index$/;"	method	line:7
+index	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/groups_controller.rb	/^  def index$/;"	method	line:12
+index	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/requirements_controller.rb	/^  def index$/;"	method	line:14
+index	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/users_controller.rb	/^  def index$/;"	method	line:15
+initialize	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def initialize(*args)$/;"	method	line:185
+initialize	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/version.rb	/^    def initialize(major, minor, tiny)$/;"	method	line:17
+instantize	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^def instantize(string)$/;"	method	line:63
+iter	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function iter(name) {$/;"	function	line:4251
+keep_instance!	/Users/lamb/Projects/filedrop/features/step_definitions/ra_resource_steps.rb	/^def keep_instance! resource, object$/;"	method	line:176
+klass	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^    function klass() {$/;"	function	line:50
+ldap_create_in_database	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_create_in_database$/;"	method	line:315
+ldap_create_in_database	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_create_in_database(value = nil)$/;"	method	line:131
+ldap_host	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_host$/;"	method	line:283
+ldap_host	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_host(value = nil)$/;"	method	line:20
+ldap_login_field	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^      def ldap_login_field(value = nil)$/;"	method	line:15
+ldap_login_field	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_login_field$/;"	method	line:299
+ldap_login_field	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_login_field(value = nil)$/;"	method	line:66
+ldap_login_format	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_login_format$/;"	method	line:295
+ldap_login_format	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_login_format(value = nil)$/;"	method	line:41
+ldap_password_field	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_password_field$/;"	method	line:303
+ldap_password_field	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_password_field(value = nil)$/;"	method	line:78
+ldap_port	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_port$/;"	method	line:287
+ldap_port	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_port(value = nil)$/;"	method	line:29
+ldap_search_attribute	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_search_attribute$/;"	method	line:323
+ldap_search_attribute	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_search_attribute(value = nil)$/;"	method	line:153
+ldap_search_base	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_search_base$/;"	method	line:319
+ldap_search_base	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_search_base(value = nil)$/;"	method	line:142
+ldap_search_local_database_first	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_search_local_database_first$/;"	method	line:311
+ldap_search_local_database_first	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_search_local_database_first(value = nil)$/;"	method	line:108
+ldap_use_encryption	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def ldap_use_encryption$/;"	method	line:291
+ldap_use_encryption	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^      def ldap_use_encryption(value = nil)$/;"	method	line:54
+link_to_current_user	/Users/lamb/Projects/filedrop/app/helpers/users_helper.rb	/^  def link_to_current_user(options={})$/;"	method	line:82
+link_to_login_with_IP	/Users/lamb/Projects/filedrop/app/helpers/users_helper.rb	/^  def link_to_login_with_IP content_text=nil, options={}$/;"	method	line:67
+link_to_user	/Users/lamb/Projects/filedrop/app/helpers/users_helper.rb	/^  def link_to_user(user, options={})$/;"	method	line:46
+load_initializer	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def load_initializer$/;"	method	line:44
+load_initializer	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def load_initializer$/;"	method	line:52
+load_rails_gem	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def load_rails_gem$/;"	method	line:58
+load_routes_with_yogo_authz!	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/extensions/routes.rb	/^    def load_routes_with_yogo_authz!$/;"	method	line:3
+load_rubygems	/Users/lamb/Projects/filedrop/config/boot.rb	/^      def load_rubygems$/;"	method	line:84
+log_in_user	/Users/lamb/Projects/filedrop/features/step_definitions/user_steps.rb	/^def log_in_user user_params=nil$/;"	method	line:118
+log_in_user!	/Users/lamb/Projects/filedrop/features/step_definitions/user_steps.rb	/^def log_in_user! *args$/;"	method	line:126
+log_out	/Users/lamb/Projects/filedrop/features/step_definitions/user_steps.rb	/^def log_out$/;"	method	line:92
+log_out!	/Users/lamb/Projects/filedrop/features/step_definitions/user_steps.rb	/^def log_out!$/;"	method	line:96
+logged_in?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def logged_in?$/;"	method	line:117
+login_is_required	/Users/lamb/Projects/filedrop/spec/controllers/access_control_spec.rb	/^  def login_is_required$/;"	method	line:11
+login_not_required	/Users/lamb/Projects/filedrop/spec/controllers/access_control_spec.rb	/^  def login_not_required$/;"	method	line:19
+mailer_set_url_options	/Users/lamb/Projects/filedrop/app/controllers/application_controller.rb	/^  def mailer_set_url_options$/;"	method	line:21
+memorize_forget_all!	/Users/lamb/Projects/filedrop/features/step_definitions/ra_resource_steps.rb	/^def memorize_forget_all!$/;"	method	line:163
+memorize_resource_value	/Users/lamb/Projects/filedrop/features/step_definitions/ra_resource_steps.rb	/^def memorize_resource_value resource, attr$/;"	method	line:152
+method_missing	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def method_missing method_name, *args, &block$/;"	method	line:139
+method_missing	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    def method_missing(method_id, *arguments)$/;"	method	line:55
+mock_drop	/Users/lamb/Projects/filedrop/spec/controllers/drops_controller_spec.rb	/^  def mock_drop(stubs={})$/;"	method	line:6
+name	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/yogo_user.rb	/^      def name$/;"	method	line:70
+named_scope	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def named_scope name, options, &block$/;"	method	line:100
+named_user	/Users/lamb/Projects/filedrop/features/step_definitions/user_steps.rb	/^def named_user login$/;"	method	line:74
+new	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def new$/;"	method	line:31
+new	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/groups_controller.rb	/^  def new$/;"	method	line:28
+new	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/user_sessions_controller.rb	/^  def new$/;"	method	line:16
+new	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/users_controller.rb	/^  def new$/;"	method	line:20
+new_drop_notification	/Users/lamb/Projects/filedrop/app/models/notifier.rb	/^  def new_drop_notification(user, drop)$/;"	method	line:3
+new_record?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def new_record?$/;"	method	line:149
+next_authorized_action_for	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    def next_authorized_action_for(user, params = {}, binding = self.binding)$/;"	method	line:63
+not_logged_in?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def not_logged_in?$/;"	method	line:121
+parseColor	/Users/lamb/Projects/filedrop/public/javascripts/effects.js	/^    function parseColor(color){$/;"	function	line:952
+parse_gem_version	/Users/lamb/Projects/filedrop/config/boot.rb	/^      def parse_gem_version(text)$/;"	method	line:97
+parse_resource_args	/Users/lamb/Projects/filedrop/features/step_definitions/ra_resource_steps.rb	/^def parse_resource_args resource, attributes=nil$/;"	method	line:132
+perform_action	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^  def perform_action$/;"	method	line:9
+permit?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/model_authorization_system.rb	/^      def permit?$/;"	method	line:23
+pick_boot	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def pick_boot$/;"	method	line:19
+preinitialize	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def preinitialize$/;"	method	line:27
+preinitializer_path	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def preinitializer_path$/;"	method	line:31
+primary_key	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def primary_key$/;"	method	line:118
+protected_	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^                def protected_#{ldap_password_field}$/;"	method	line:200
+quoted_table_name	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def quoted_table_name$/;"	method	line:110
+read_environment_rb	/Users/lamb/Projects/filedrop/config/boot.rb	/^        def read_environment_rb$/;"	method	line:102
+readonly?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def readonly?$/;"	method	line:145
+recall_resource_value	/Users/lamb/Projects/filedrop/features/step_definitions/ra_resource_steps.rb	/^def recall_resource_value resource, attr$/;"	method	line:160
+redirect_back_or_default	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def redirect_back_or_default(default)$/;"	method	line:147
+remove	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/requirements_controller.rb	/^  def remove$/;"	method	line:44
+require_authentication	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^      def require_authentication(type = nil, options = {})$/;"	method	line:33
+require_authorization	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^      def require_authorization(type, values, options = {})$/;"	method	line:35
+require_no_user	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def require_no_user$/;"	method	line:134
+require_no_user	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^      def require_no_user(options = {})$/;"	method	line:58
+require_user	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def require_user$/;"	method	line:125
+require_user	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^      def require_user(options = {})$/;"	method	line:53
+reset_authorization_requirements!	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    def reset_authorization_requirements!$/;"	method	line:126
+rubygems_version	/Users/lamb/Projects/filedrop/config/boot.rb	/^      def rubygems_version$/;"	method	line:70
+run	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def run$/;"	method	line:37
+save_without_session_maintenance	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^        def save_without_session_maintenance(*args)$/;"	method	line:68
+send_notification	/Users/lamb/Projects/filedrop/app/models/drop.rb	/^  def send_notification$/;"	method	line:34
+set_group	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/permissions_controller.rb	/^  def set_group$/;"	method	line:41
+set_remember_token	/Users/lamb/Projects/filedrop/spec/controllers/authenticated_system_spec.rb	/^    def set_remember_token token, time$/;"	method	line:70
+set_user	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/memberships_controller.rb	/^  def set_user$/;"	method	line:38
+show	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def show$/;"	method	line:20
+show	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/groups_controller.rb	/^  def show$/;"	method	line:20
+show	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/memberships_controller.rb	/^  def show$/;"	method	line:14
+show	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/permissions_controller.rb	/^  def show$/;"	method	line:13
+show	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/users_controller.rb	/^  def show$/;"	method	line:34
+store_location	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authenticated_system.rb	/^        def store_location$/;"	method	line:143
+stripAlpha	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^    function stripAlpha(filter){$/;"	function	line:2289
+template_for	/Users/lamb/Projects/filedrop/features/step_definitions/ra_response_steps.rb	/^def template_for(action, resource)$/;"	method	line:166
+terms	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def terms$/;"	method	line:98
+test_homepage	/Users/lamb/Projects/filedrop/test/performance/browsing_test.rb	/^  def test_homepage$/;"	method	line:6
+toQueryPair	/Users/lamb/Projects/filedrop/public/javascripts/prototype.js	/^  function toQueryPair(key, value) {$/;"	function	line:999
+to_a	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/version.rb	/^    def to_a$/;"	method	line:38
+to_array_from_story	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^  def to_array_from_story$/;"	method	line:53
+to_hash_from_story	/Users/lamb/Projects/filedrop/features/step_definitions/rest_auth_features_helper.rb	/^  def to_hash_from_story$/;"	method	line:42
+to_i	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/version.rb	/^    def to_i$/;"	method	line:34
+to_s	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/version.rb	/^    def to_s$/;"	method	line:28
+to_s	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/group.rb	/^  def to_s$/;"	method	line:28
+undeclaired_authentications	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/controller.rb	/^  def self.undeclaired_authentications$/;"	singleton method	line:17
+undeclaired_authorizations	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/models/yogo_authz/controller.rb	/^  def self.undeclaired_authorizations$/;"	singleton method	line:25
+up	/Users/lamb/Projects/filedrop/db/migrate/20090302224237_create_users.rb	/^  def self.up$/;"	singleton method	line:2
+up	/Users/lamb/Projects/filedrop/db/migrate/20090302224715_create_drops.rb	/^  def self.up$/;"	singleton method	line:2
+up	/Users/lamb/Projects/filedrop/db/migrate/20090324213900_create_groups.rb	/^  def self.up$/;"	singleton method	line:2
+up	/Users/lamb/Projects/filedrop/db/migrate/20090324214520_create_memberships.rb	/^  def self.up$/;"	singleton method	line:2
+update	/Users/lamb/Projects/filedrop/app/controllers/drops_controller.rb	/^  def update$/;"	method	line:66
+update	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/groups_controller.rb	/^  def update$/;"	method	line:59
+update	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/app/controllers/yogo_authz/users_controller.rb	/^  def update$/;"	method	line:42
+url_authorized?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^      def url_authorized?(params = {})$/;"	method	line:173
+url_authorized?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    def url_authorized?(user, params = {}, binding = self.binding)$/;"	method	line:100
+user_is_in_group?	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authorization_system.rb	/^    def user_is_in_group?(user, group)$/;"	method	line:139
+using_ldap?	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^        def using_ldap?$/;"	method	line:49
+validate_by_ldap	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/session.rb	/^        def validate_by_ldap$/;"	method	line:243
+validate_ldap	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^        def validate_ldap$/;"	method	line:53
+validate_ldap?	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^        def validate_ldap?$/;"	method	line:63
+validate_ldap_login	/Users/lamb/Projects/filedrop/vendor/plugins/authlogic_ldap/lib/authlogic_ldap/acts_as_authentic.rb	/^      def validate_ldap_login(value = nil)$/;"	method	line:25
+vendor_rails?	/Users/lamb/Projects/filedrop/config/boot.rb	/^    def vendor_rails?$/;"	method	line:23
+with_scope	/Users/lamb/Projects/filedrop/vendor/plugins/yogo_authz/lib/yogo_authz/authlogic_dm/compatability.rb	/^      def with_scope(query)$/;"	method	line:125

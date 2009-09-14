@@ -1,0 +1,15 @@
+<table cellpadding='5'>
+  <tr>
+    <th>User Name</th>
+    <th>User Login</th>
+    <th>User Email</th>
+    <th colspan=2>Options</th>
+  </tr>
+  <tr>
+    <td><%= @user.name %></td>
+    <td><%= @user.login %></td>
+    <td><%= @user.email %></td>
+    <td><%= link_to 'Edit', edit_user_path(@user) %></td>
+    <td><%= link_to 'Destroy', @user, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+</table>

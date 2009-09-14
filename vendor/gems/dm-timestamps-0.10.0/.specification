@@ -1,0 +1,81 @@
+--- !ruby/object:Gem::Specification 
+name: dm-timestamps
+version: !ruby/object:Gem::Version 
+  version: 0.10.0
+platform: ruby
+authors: 
+- Foy Savas
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-06-19 00:00:00 -06:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: dm-core
+  type: :runtime
+  version_requirement: 
+  version_requirements: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - "="
+      - !ruby/object:Gem::Version 
+        version: 0.10.0
+    version: 
+description: DataMapper plugin for magical timestamps
+email: 
+- foysavas [a] gmail [d] com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README.txt
+- LICENSE
+- TODO
+- History.txt
+files: 
+- History.txt
+- LICENSE
+- Manifest.txt
+- README.txt
+- Rakefile
+- TODO
+- lib/dm-timestamps.rb
+- lib/dm-timestamps/version.rb
+- spec/integration/timestamps_spec.rb
+- spec/spec.opts
+- spec/spec_helper.rb
+- tasks/install.rb
+- tasks/spec.rb
+has_rdoc: true
+homepage: http://github.com/datamapper/dm-more/tree/master/dm-timestamps
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --main
+- README.txt
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: datamapper
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: DataMapper plugin for magical timestamps
+test_files: []
+

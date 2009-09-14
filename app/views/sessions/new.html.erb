@@ -1,0 +1,23 @@
+<h1 class='dashbox_header'>Log In</h1>
+<div class='dashbox'>
+    <% form_tag session_path do -%>
+    <p><%= label_tag 'login' %><br />
+    <%= text_field_tag 'login', @login %>
+    <span class='small italic'>Your MSU NetID (example: a12b345)</span>
+    </p>
+
+    <p><%= label_tag 'password' %><br/>
+    <%= password_field_tag 'password', nil %>
+     <span class='small italic'>Your MSU NetID Password</span>
+    </p>
+
+    <!-- Uncomment this if you want this functionality
+    <p><%= label_tag 'remember_me', 'Remember me' %>
+    <%= check_box_tag 'remember_me', '1', @remember_me %></p>
+    -->
+    <p><%= submit_tag 'Log in' %></p>
+    <% end -%>
+    <p class='small' style='text-align: center;'>
+    <%= link_to "Click here if you don't know your MSU NetID username or password", "http://password.montana.edu", :target => 'blank' %>
+    </p>
+</div>

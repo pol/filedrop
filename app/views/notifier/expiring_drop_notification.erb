@@ -1,0 +1,13 @@
+Hello <%= @user.name %>,
+
+The following FileDrop file is expiring tonight at midnight:
+
+Descriptive Name: <%= @drop.name %>
+File Name: <%= @drop.file_file_name %>
+Public Link: <%= link_to file_url(@drop.uuid), file_url(@drop.uuid) %>
+Description: <%= @drop.description %>
+Created: <%= drop.created_at.to_s :short %>
+Expires: <%= drop.expiration_date.to_s :short %>
+
+You have <%= @user.drops.length - 1 %> other files in the FileDrop system.
+Log in to see what they are.

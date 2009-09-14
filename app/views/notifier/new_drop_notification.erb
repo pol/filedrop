@@ -1,0 +1,14 @@
+Hello <%= @user.name %>,
+
+You have added a new file to the FileDrop system.  
+It is now available at:
+
+Descriptive Name: <%= @drop.name %>
+File Name: <%= @drop.file_file_name %>
+Public Link: <%= file_url(@drop.uuid) %>
+Description: <%= @drop.description %>
+Created: <%= @drop.created_at.to_s :short %>
+Expires: <%= @drop.expiration_date.to_s :short %>
+
+You have <%= @user.drops.count - 1 %> other files in the FileDrop system.
+Log in to see what they are.

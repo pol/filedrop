@@ -1,0 +1,8 @@
+Name: <%= @drop.name %><br />
+Description: <%= @drop.description %><br />
+Filename: <%= @drop.file %><br />
+UUID: <%= @drop.uuid %><br />
+Expiration Date: <%= @drop.created_at + 5.days unless @drop.created_at.nil? %><br />
+<br />
+<%= link_to 'Edit', edit_drop_path(@drop) %> |
+<%= link_to 'Back', drops_path %>

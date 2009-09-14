@@ -1,0 +1,26 @@
+<h1>Your Files</h1>
+<div class='link_button' style='float: right;'> <%= link_to 'New File', new_drop_path %></div>
+<span class='small italic'>Newest first</span>
+<div class='listbox'>
+  <% for drop in @drops %>
+  <% jade = cycle('odd','even') %>
+  
+  <div class='<%= jade %> dropname'>
+    <%= drop.name.blank? ? drop.file_file_name : drop.name %>
+  </div>
+  
+  <div class='<%= jade %>'>
+    <%= "File Name: " + drop.file_file_name + "<br />" unless drop.name.blank? %>
+    Public Link: <%= link_to file_url(drop.uuid), file_url(drop.uuid) %><br />
+    <%= drop.description + "<br />" unless drop.description.blank? %>
+    
+    <span class='small italic'>
+      created: <%= drop.created_at.to_s :short %> ~
+      expires: <%= drop.expiration_date.to_s :short %> 
+      <%= link_to 'Delete Now', drop_path(drop.id), :confirm => 'Are you sure?', :method => :delete %>
+    </span>
+  </div>
+  <% end %>
+  <%= "<h2>You don't have any Files.<h2>" if @drops.empty? %>
+</div>
+<br />

@@ -1,0 +1,92 @@
+--- !ruby/object:Gem::Specification 
+name: dm-is-nested_set
+version: !ruby/object:Gem::Version 
+  version: 0.10.0
+platform: ruby
+authors: 
+- Sindre Aarsaether
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-06-19 00:00:00 -06:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: dm-core
+  type: :runtime
+  version_requirement: 
+  version_requirements: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - "="
+      - !ruby/object:Gem::Version 
+        version: 0.10.0
+    version: 
+- !ruby/object:Gem::Dependency 
+  name: dm-adjust
+  type: :runtime
+  version_requirement: 
+  version_requirements: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - "="
+      - !ruby/object:Gem::Version 
+        version: 0.10.0
+    version: 
+description: DataMapper plugin allowing the creation of nested sets from data models
+email: 
+- sindre [a] identu [d] no
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README.txt
+- LICENSE
+- TODO
+- History.txt
+files: 
+- History.txt
+- LICENSE
+- Manifest.txt
+- README.txt
+- Rakefile
+- TODO
+- lib/dm-is-nested_set.rb
+- lib/dm-is-nested_set/is/nested_set.rb
+- lib/dm-is-nested_set/is/version.rb
+- spec/integration/nested_set_spec.rb
+- spec/spec.opts
+- spec/spec_helper.rb
+- tasks/install.rb
+- tasks/spec.rb
+has_rdoc: true
+homepage: http://github.com/datamapper/dm-more/tree/master/dm-is-nested_set
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --main
+- README.txt
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: datamapper
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: DataMapper plugin allowing the creation of nested sets from data models
+test_files: []
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <%= stylesheet_link_tag 'msu' %>
+  <%= stylesheet_link_tag 'filedrop' %>
+	<%= javascript_include_tag :defaults %>
+</head>
+<body id="MSU Filedrop" onload="">
+  <%= render :partial => 'shared/header' %>
+  <div id='user_bar'>
+    <div class='breadcrumbs'><%= breadcrumbs(@breadcrumbs) %></div>
+    <%= render :partial => 'users/user_bar'%>
+  </div>
+  <div id='content'>
+	  <%= yield %>
+  </div>
+</body>
+</html>
